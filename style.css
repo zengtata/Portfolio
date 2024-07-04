@@ -1,0 +1,85 @@
+        html{
+            font-size: clamp(18px, 2vw, 24px);
+        }
+        
+        body {
+            background-color: #222831;
+            font-size: 1rem;
+            font-family: "Chakra Petch", sans-serif;
+        }
+
+
+        h1{
+            font-size: 4rem;
+            font-weight: bold;
+            font-family: "Chakra Petch", sans-serif;
+        }
+
+        h2{
+            font-size: 2rem;
+        }
+
+        p{
+            font-size: 20px;
+            color: #DDDDDD;
+        }
+
+        a{
+            color: #DDDDDD;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #F05454;
+            background-color: transparent;
+        }
+
+        .black{
+            background-color: #222831;
+        }
+
+        .white{
+            color: #DDDDDD;
+        }
+
+        .red {
+            color: #F05454;
+        }
+
+        .blue {
+            color: #30475E;
+            font-weight: bold;
+        }
+
+
+        .custom-img {
+            max-width: 80%; 
+            height: auto;
+            border-radius: 5%; 
+        }
+
+        .resume-button{
+            color: #F05454;
+            background-color: transparent;
+            border: 1px solid;
+            border-radius: 4px;
+            padding: 0.75rem 1rem;
+            line-height: 1;
+            text-decoration: none;
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            margin-left: 15px;
+        }
+
+
+        #home {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: left;
+            justify-content: center;
+        }
+
+
+
